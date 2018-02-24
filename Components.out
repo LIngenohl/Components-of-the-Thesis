@@ -1,16 +1,16 @@
 \BOOKMARK [1][-]{section.1}{Motivation \046 Importance}{}% 1
 \BOOKMARK [1][-]{section.2}{Descriptive Introduction}{}% 2
-\BOOKMARK [1][-]{section.3}{Investor \046 Target Characteristics}{}% 3
-\BOOKMARK [1][-]{section.4}{Financial Condition}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Investor}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Target}{section.4}% 6
-\BOOKMARK [1][-]{section.5}{Underlying Justification for using the given measures as a proxy for financial strength}{}% 7
-\BOOKMARK [1][-]{section.6}{Abnormal Returns - Event Study}{}% 8
-\BOOKMARK [1][-]{section.7}{Investor-Target Ratio}{}% 9
-\BOOKMARK [1][-]{section.8}{Data}{}% 10
-\BOOKMARK [2][-]{subsection.8.1}{COMPUSTAT - Financial Condition}{section.8}% 11
-\BOOKMARK [3][-]{subsubsection.8.1.1}{Screening Variables}{subsection.8.1}% 12
-\BOOKMARK [3][-]{subsubsection.8.1.2}{Variables}{subsection.8.1}% 13
-\BOOKMARK [2][-]{subsection.8.2}{CRSP - Event Study Abnormal Returns}{section.8}% 14
-\BOOKMARK [2][-]{subsection.8.3}{Summary Statistics}{section.8}% 15
-\BOOKMARK [1][-]{section.9}{Literature}{}% 16
+\BOOKMARK [1][-]{section.3}{Sample Selection}{}% 3
+\BOOKMARK [1][-]{section.4}{Summary Statistics for the sample - Investor \046 Target}{}% 4
+\BOOKMARK [1][-]{section.5}{Financial Condition}{}% 5
+\BOOKMARK [2][-]{subsection.5.1}{Investor}{section.5}% 6
+\BOOKMARK [2][-]{subsection.5.2}{Target}{section.5}% 7
+\BOOKMARK [1][-]{section.6}{Underlying Justification for using the given measures as a proxy for financial strength}{}% 8
+\BOOKMARK [1][-]{section.7}{Abnormal Returns - Event Study}{}% 9
+\BOOKMARK [1][-]{section.8}{Investor-Target Ratio}{}% 10
+\BOOKMARK [1][-]{section.9}{Data}{}% 11
+\BOOKMARK [2][-]{subsection.9.1}{COMPUSTAT - Financial Condition}{section.9}% 12
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Screening Variables}{subsection.9.1}% 13
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Variables}{subsection.9.1}% 14
+\BOOKMARK [2][-]{subsection.9.2}{CRSP - Event Study Abnormal Returns}{section.9}% 15
+\BOOKMARK [1][-]{section.10}{Literature}{}% 16
