@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1519481308 "/Users/leopoldingenohl/Documents/GitHub/Discussion/To-Do.tex" "To-Do.pdf" "To-Do" 1519481309
-  "/Users/leopoldingenohl/Documents/GitHub/Discussion/To-Do.tex" 1519481306 5284 084f8ec08f8f691200ff6b826bc1ed50 ""
+["pdflatex"] 1519483429 "/Users/leopoldingenohl/Documents/GitHub/Discussion/To-Do.tex" "To-Do.pdf" "To-Do" 1519483429
+  "/Users/leopoldingenohl/Documents/GitHub/Discussion/To-Do.tex" 1519483428 5353 70cb8942ece5b78c02b59ff3e4b30068 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1480098666 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -79,11 +79,11 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1518193019 4129591 a3b9bda9b014308a30889b544c1d4287 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "To-Do.aux" 1519481308 2457 f592831b9026122c577e60b5501edf4f ""
-  "To-Do.out" 1519481308 1068 1449866cdac16b5495f0c2237bdf0b6f ""
-  "To-Do.tex" 1519481306 5284 084f8ec08f8f691200ff6b826bc1ed50 ""
+  "To-Do.aux" 1519483429 2457 f592831b9026122c577e60b5501edf4f ""
+  "To-Do.out" 1519483429 1068 1449866cdac16b5495f0c2237bdf0b6f ""
+  "To-Do.tex" 1519483428 5353 70cb8942ece5b78c02b59ff3e4b30068 ""
   (generated)
   "To-Do.aux"
+  "To-Do.pdf"
   "To-Do.out"
   "To-Do.log"
-  "To-Do.pdf"
