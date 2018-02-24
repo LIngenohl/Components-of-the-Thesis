@@ -28,121 +28,146 @@
 	\renewcommand{\headrulewidth}{0.4pt}
 	\setlength{\headheight}{14pt}
 
-\title{TO-DO}
+\title{Components of the Thesis}
 \author{Leopold Ingenohl}
 
 
 \begin{document}
 \maketitle
 
-\section{Literature}
-\begin{itemize}
-   \item Kothari, S. P., and J. B. Warner. 2007. Econometrics of Event Studies. In B. E. Eckbo (ed.), Handbooks of Corporate Finance: Empirical Corporate Finance, Chapter 1. Amsterdam: Elsevier/North-Holland.
-   \item Journal of Financial and Quantitative Analysis (JFQA)
-   \item Fama, E. F., and K. R. French. 2006. Profitability, Investment and Average Returns. Journal of Financial Economics 82: 491-518. (page 496)
-   \item Mohr, J-H.M., 2012. Utility of Piotroski F-score for predicting growth stock returns. Working paper, MFIE Capital.
-   \item signs for takeover? 
-   
 
-\end{itemize}
+\section{Motivation \& Importance} 
 
-\section{Data}
-\subsection{Sample Criteria}
-\begin{itemize}
-    \item Filtered by 10-K filings
-    \item financial information is definitely available - is it readable? (Loughran, MacDonald)
-    \item 
-\end{itemize}
-\section{Summary statistics}
-
-\section{Compustat}
-\begin{enumerate}
-
-    \item Screening Variables
-   
-    \begin{enumerate}
-        \item What consolidation level? - Consolidated
-        \item What industry? No financial services (FS) 
-        \item What data format?  - Standardized 
-        \item Population source? - Domestic 
-        \item Currency? - USD 
-        \item Company Status? - Active \& Inactive  
-    \end{enumerate}
-   
-    \item Variables 
-    
-    \begin{enumerate}
-        \item Identifying Information
-        \begin{itemize}
-            \item Company name 
-            \item CIK number 
-        \end{itemize}
-    
-        \item Identifying Information cont.  
-        \begin{itemize}
-            \item GIC variables - GIC sectors etc.
-            \item NAICS - in addition to GIC? 
-            \item SIC - in addition to GIC?
-        \end{itemize}
-
-        \item Company Descriptor
-        \begin{itemize}
-            \item Acquisition method? - ACQMETH filter by takeover? 
-            \item 
-        \end{itemize}
-        
-        \item Balance Sheet Items 
-        \begin{itemize}
-            \item Current Assets total (ACT)
-            \item Total Assets (AT)
-            \item Account receivables total (ARTFS)
-            \item Cash (CH)
-            \item Liabilities total (LT) 
-            \item Long term debt total (DLTT)
-        \end{itemize}
-        
-    \end{enumerate}
-    
-    \item asdasd
-
-\end{enumerate}
-
-
-\section{Financial Strength}
-
+\section{Descriptive Introduction}
     \begin{itemize}
-    \item Control variables - implementation?
-
-    \item Measurements (variables) for the financial condition 
-
-        \begin{itemize}
-        \item industry multiples
-        \item Balance sheet ratios
-        \item ROE, ROA, accruals 
-        \item Fundamental analysis
-        \item Working capital adequacy
-        \item Asset performance
-        \item Capitalization structure
-        \end{itemize}
-
-    \item Evaluation of the financial strength
-
-        \begin{itemize}
-        \item Interpretation of the variables
-        \item Group investors based on the properties
-        \item Pitroskis'f-score as a proxy for financial strength
-        \item Average return over the last xx years 
-        \end{itemize}
-
-    \item 
+        \item HNA - Deutsche Bank
     \end{itemize}
 
-\section{Information used by investors}
+\section{Investor \& Target Characteristics}
 
-\begin{itemize}
-    \item 10-K Filings? 
-    \item Data availability
-    \item Why would they use the data?
-    \item Because information is incorporated in a given manner, we can use several variables as proxies for financial strength (they know what we know)
-\end{itemize}
+    \begin{itemize}
+    \item Sample selection criteria
+    \end{itemize}
+
+\section{Financial Condition}
+
+    \subsection{Investor}
+
+    \begin{itemize}
+        \item Control variables - implementation?
+    
+        \item Measurements (variables) for the financial condition 
+    
+            \begin{itemize}
+            \item industry multiples
+            \item Balance sheet ratios
+            \item ROE, ROA, accruals 
+            \item Fundamental analysis
+            \item Working capital adequacy
+            \item Asset performance
+            \item Capitalization structure
+            \end{itemize}
+    
+        \item Evaluation of the financial strength
+    
+            \begin{itemize}
+            \item Interpretation of the variables
+            \item Group investors based on the properties
+            \item Pitroskis'f-score as a proxy for financial strength
+            \item Average return over the last xx years 
+            \end{itemize}
+
+    
+    \end{itemize}
+
+    \subsection{Target}
+
+\section{Underlying Justification for using the given measures as a proxy for financial strength}
+
+    \begin{itemize}
+        \item Information Availability to the Market
+        \item 10-K Filings? 
+        \item Data availability
+        \item Why would they use the data?
+        \item Readability: financial information is definitely available - is it readable? (Loughran, MacDonald)
+        \item Because information is incorporated in a given manner, we can use several variables as proxies for financial strength observed by the market in the form of abnormal returns (they know what we know)
+    \end{itemize}
+
+\section{Abnormal Returns - Event Study} 
+    \begin{itemize}
+        \item event window
+        \item mathematics behind it 
+        \item Computation etc.
+    \end{itemize}
+
+\section{Investor-Target Ratio}  
+
+\section{Data}
+
+    \subsection{COMPUSTAT - Financial Condition}
+
+        \subsubsection{Screening Variables}
+
+        \begin{enumerate}
+            \item What consolidation level? - Consolidated
+            \item What industry? No financial services (FS) 
+            \item What data format?  - Standardized 
+            \item Population source? - Domestic 
+            \item Currency? - USD 
+            \item Company Status? - Active \& Inactive  
+        \end{enumerate}
+
+        \subsubsection{Variables}
+
+        \begin{enumerate}
+        \item Identifying Information
+
+            \begin{itemize}
+                \item Company name 
+                \item CIK number 
+            \end{itemize}
+    
+        \item Identifying Information cont.  
+        
+            \begin{itemize}
+                \item GIC variables - GIC sectors etc.
+                \item NAICS - in addition to GIC? 
+                \item SIC - in addition to GIC?
+            \end{itemize}
+
+        \item Company Descriptor
+
+            \begin{itemize}
+                \item Acquisition method? - ACQMETH filter by takeover? 
+                \item 
+            \end{itemize}
+        
+        \item Balance Sheet Items 
+
+            \begin{itemize}
+                \item Current Assets total (ACT)
+                \item Total Assets (AT)
+                \item Account receivables total (ARTFS)
+                \item Cash (CH)
+                \item Liabilities total (LT) 
+                \item Long term debt total (DLTT)
+            \end{itemize}
+        
+    \end{enumerate}
+
+
+    \subsection{CRSP - Event Study Abnormal Returns}
+
+    \subsection{Summary Statistics}
+
+\section{Literature}
+
+    \begin{itemize}
+        \item Kothari, S. P., and J. B. Warner. 2007. Econometrics of Event Studies. In B. E. Eckbo (ed.), Handbooks of Corporate Finance: Empirical Corporate Finance, Chapter 1. Amsterdam: Elsevier/North-Holland.
+        \item Journal of Financial and Quantitative Analysis (JFQA)
+        \item Fama, E. F., and K. R. French. 2006. Profitability, Investment and Average Returns. Journal of Financial Economics 82: 491-518. (page 496)
+        \item Mohr, J-H.M., 2012. Utility of Piotroski F-score for predicting growth stock returns. Working paper, MFIE Capital.
+        \item signs for takeover? 
+    \end{itemize}
+
 \end{document}
