@@ -1,16 +1,18 @@
 \BOOKMARK [1][-]{section.1}{Motivation \046 Importance}{}% 1
-\BOOKMARK [1][-]{section.2}{Descriptive Introduction}{}% 2
-\BOOKMARK [1][-]{section.3}{Sample Selection}{}% 3
-\BOOKMARK [1][-]{section.4}{Summary Statistics for the sample - Investor \046 Target}{}% 4
-\BOOKMARK [1][-]{section.5}{Financial Condition}{}% 5
-\BOOKMARK [2][-]{subsection.5.1}{Investor}{section.5}% 6
-\BOOKMARK [2][-]{subsection.5.2}{Target}{section.5}% 7
-\BOOKMARK [1][-]{section.6}{Underlying Justification for using the given measures as a proxy for financial strength}{}% 8
-\BOOKMARK [1][-]{section.7}{Abnormal Returns - Event Study}{}% 9
-\BOOKMARK [1][-]{section.8}{Investor-Target Ratio}{}% 10
-\BOOKMARK [1][-]{section.9}{Data}{}% 11
-\BOOKMARK [2][-]{subsection.9.1}{COMPUSTAT - Financial Condition}{section.9}% 12
-\BOOKMARK [3][-]{subsubsection.9.1.1}{Screening Variables}{subsection.9.1}% 13
-\BOOKMARK [3][-]{subsubsection.9.1.2}{Variables}{subsection.9.1}% 14
-\BOOKMARK [2][-]{subsection.9.2}{CRSP - Event Study Abnormal Returns}{section.9}% 15
-\BOOKMARK [1][-]{section.10}{Literature}{}% 16
+\BOOKMARK [1][-]{section.2}{Filings}{}% 2
+\BOOKMARK [1][-]{section.3}{Descriptive Introduction}{}% 3
+\BOOKMARK [1][-]{section.4}{Sample Selection}{}% 4
+\BOOKMARK [1][-]{section.5}{Summary Statistics for the sample - Investor \046 Target}{}% 5
+\BOOKMARK [1][-]{section.6}{Financial Condition}{}% 6
+\BOOKMARK [2][-]{subsection.6.1}{Investor}{section.6}% 7
+\BOOKMARK [2][-]{subsection.6.2}{Target}{section.6}% 8
+\BOOKMARK [1][-]{section.7}{Underlying Justification for using the given measures as a proxy for financial strength}{}% 9
+\BOOKMARK [1][-]{section.8}{Abnormal Returns - Event Study}{}% 10
+\BOOKMARK [1][-]{section.9}{Investor-Target Ratio}{}% 11
+\BOOKMARK [1][-]{section.10}{Data}{}% 12
+\BOOKMARK [2][-]{subsection.10.1}{Comments}{section.10}% 13
+\BOOKMARK [2][-]{subsection.10.2}{COMPUSTAT - Financial Condition}{section.10}% 14
+\BOOKMARK [3][-]{subsubsection.10.2.1}{Screening Variables}{subsection.10.2}% 15
+\BOOKMARK [3][-]{subsubsection.10.2.2}{Variables}{subsection.10.2}% 16
+\BOOKMARK [2][-]{subsection.10.3}{CRSP - Event Study Abnormal Returns}{section.10}% 17
+\BOOKMARK [1][-]{section.11}{Literature}{}% 18
