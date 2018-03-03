@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.9)  2 MAR 2018 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.9)  3 MAR 2018 10:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -858,7 +858,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear-icomp.dbx' not found.
+Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count157
@@ -958,14 +958,9 @@ Package biblatex Info: ... file 'blx-natbib.def' found.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-natbib.def
 File: blx-natbib.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
-Package biblatex Info: Trying to load bibliography style 'authoryear-icomp'...
-Package biblatex Info: ... file 'authoryear-icomp.bbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/authoryear-icomp.bbx
-File: authoryear-icomp.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/A
-B)
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
 File: authoryear.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
@@ -975,12 +970,12 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count296
 \c@bbx:relatedtotal=\count297
-)))
-Package biblatex Info: Trying to load citation style 'authoryear-icomp'...
-Package biblatex Info: ... file 'authoryear-icomp.cbx' found.
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/authoryear-icomp.cbx
-File: authoryear-icomp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -988,15 +983,11 @@ Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetexts'.
-Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -1145,15 +1136,22 @@ Overfull \hbox (7.40147pt too wide) in paragraph at lines 119--120
 os, Vy-acheslav) 
  []
 
+
+Overfull \hbox (4.82112pt too wide) in paragraph at lines 127--128
+[]\T1/cmr/m/n/12 difference of the pa-per: Our ana-lysis dif-fers from earlier 
+ana-lyses...([]Brigida
+ []
+
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
 Overfull \hbox (13.10812pt too wide) in paragraph at lines 159--160
 []\T1/cmr/m/n/12 The sample of trades by Sched-ule 13D filers is con-struc-ted 
 as fol-lows.([]Collin-
  []
 
-[2] [3] [4] [5]
+[3] [4] [5]
 Overfull \hbox (3.35481pt too wide) in paragraph at lines 215--216
 []\T1/cmr/m/n/12 financial vari-ables that re-flect changes in these eco-nomic 
 con-di-tions should
@@ -1165,9 +1163,9 @@ Overfull \hbox (0.775pt too wide) in paragraph at lines 302--303
 s a bench-
  []
 
-[10] [11] [12]
+[10] [11] [12] [13]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
- [13]
+ [14]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
  (./Components.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
@@ -1180,13 +1178,13 @@ Package logreq Info: Writing requests to 'Components.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
  ) 
 Here is how much of TeX's memory you used:
- 15409 strings out of 492995
- 247042 string characters out of 6132705
- 724235 words of memory out of 5000000
- 18732 multiletter control sequences out of 15000+600000
+ 15379 strings out of 492995
+ 246301 string characters out of 6132705
+ 722013 words of memory out of 5000000
+ 18704 multiletter control sequences out of 15000+600000
  10694 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,49p,2657b,1595s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,51p,2657b,1595s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.0@Kolari2010} has been referenced but does n
 ot exist, replaced by a fixed one
 
@@ -1243,10 +1241,10 @@ ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on Components.pdf (13 pages, 135958 bytes).
+Output written on Components.pdf (14 pages, 136764 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 277 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
