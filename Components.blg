@@ -1,24 +1,25 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
-[1] Config.pm:357> INFO - Logfile is 'Components.blg'
-[69] biber-darwin:303> INFO - === Sat Mar  3, 2018, 10:49:37
-[124] Biber.pm:359> INFO - Reading 'Components.bcf'
-[234] Biber.pm:835> INFO - Found 16 citekeys in bib section 0
-[249] Biber.pm:3670> INFO - Processing section 0
-[291] Biber.pm:3840> INFO - Looking for bibtex format file 'BA Kopie.bib' for section 0
-[303] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[329] bibtex.pm:1292> INFO - Found BibTeX data source 'BA Kopie.bib'
-[395] Utils.pm:164> WARN - ISBN '1540-6261' in entry 'Collin-Dufresne2015' is invalid - run biber with '--validate_datamodel' for details.
-[418] Utils.pm:164> WARN - ISBN '00220515' in entry 'MacKinlay1997' is invalid - run biber with '--validate_datamodel' for details.
-[421] Utils.pm:164> WARN - ISBN '13806653' in entry 'You2009' is invalid - run biber with '--validate_datamodel' for details.
-[426] Utils.pm:164> WARN - ISBN '15-12' in entry 'Ball2016' is invalid - run biber with '--validate_datamodel' for details.
-[428] Utils.pm:164> WARN - ISBN '00221082' in entry 'Deangelo2015' is invalid - run biber with '--validate_datamodel' for details.
-[431] Utils.pm:164> WARN - ISBN '0304-405X' in entry 'Fama2006' is invalid - run biber with '--validate_datamodel' for details.
-[434] Utils.pm:164> WARN - ISBN '1540-6261' in entry 'Loughran2014' is invalid - run biber with '--validate_datamodel' for details.
-[445] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/wz/60_g9h8j46bd1p2pm426x9t40000gn/T/QxdrqQQLYW/BA Kopie.bib_50747.utf8, line 6, warning: 177 characters of junk seen at toplevel
-[495] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[495] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[495] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-GB'
-[495] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-GB'
-[523] bbl.pm:608> INFO - Writing 'Components.bbl' with encoding 'UTF-8'
-[529] bbl.pm:712> INFO - Output to Components.bbl
-[530] Biber.pm:109> INFO - WARNINGS: 8
+[0] Config.pm:357> INFO - Logfile is 'Components.blg'
+[87] biber-darwin:303> INFO - === Sat Mar  3, 2018, 11:46:41
+[152] Biber.pm:359> INFO - Reading 'Components.bcf'
+[293] Biber.pm:835> INFO - Found 17 citekeys in bib section 0
+[315] Biber.pm:3670> INFO - Processing section 0
+[354] Biber.pm:3840> INFO - Looking for bibtex format file 'BA Kopie.bib' for section 0
+[378] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[407] bibtex.pm:1292> INFO - Found BibTeX data source 'BA Kopie.bib'
+[497] Utils.pm:164> WARN - ISBN '1540-6261' in entry 'Collin-Dufresne2015' is invalid - run biber with '--validate_datamodel' for details.
+[499] Utils.pm:164> WARN - ISBN '13806653' in entry 'You2009' is invalid - run biber with '--validate_datamodel' for details.
+[503] Utils.pm:164> WARN - ISBN '0304-405X' in entry 'Fama2006' is invalid - run biber with '--validate_datamodel' for details.
+[511] Utils.pm:164> WARN - ISBN '00221082' in entry 'Deangelo2015' is invalid - run biber with '--validate_datamodel' for details.
+[515] Utils.pm:164> WARN - ISBN '15-12' in entry 'Ball2016' is invalid - run biber with '--validate_datamodel' for details.
+[517] Utils.pm:164> WARN - ISBN '1540-6261' in entry 'Loughran2014' is invalid - run biber with '--validate_datamodel' for details.
+[532] Utils.pm:164> WARN - ISBN '00220515' in entry 'MacKinlay1997' is invalid - run biber with '--validate_datamodel' for details.
+[533] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/wz/60_g9h8j46bd1p2pm426x9t40000gn/T/CO7S_4afDg/BA Kopie.bib_52012.utf8, line 6, warning: 177 characters of junk seen at toplevel
+[535] Utils.pm:164> WARN - I didn't find a database entry for '2' (section 0)
+[594] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[594] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[595] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-GB'
+[595] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-GB'
+[618] bbl.pm:608> INFO - Writing 'Components.bbl' with encoding 'UTF-8'
+[629] bbl.pm:712> INFO - Output to Components.bbl
+[630] Biber.pm:109> INFO - WARNINGS: 9
