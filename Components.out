@@ -16,14 +16,17 @@
 \BOOKMARK [2][-]{subsection.4.2}{Expected Return}{section.4}% 16
 \BOOKMARK [2][-]{subsection.4.3}{Measurements \(variables\) for the financial condition}{section.4}% 17
 \BOOKMARK [2][-]{subsection.4.4}{Evaluation of the financial strength}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.5}{Target}{section.4}% 19
-\BOOKMARK [1][-]{section.5}{Underlying Justification for using the given measures as a proxy for financial strength}{}% 20
-\BOOKMARK [1][-]{section.6}{Abnormal Returns - Event Study}{}% 21
-\BOOKMARK [1][-]{section.7}{Investor-Target Ratio}{}% 22
-\BOOKMARK [1][-]{section.8}{Data}{}% 23
-\BOOKMARK [2][-]{subsection.8.1}{Comments}{section.8}% 24
-\BOOKMARK [2][-]{subsection.8.2}{COMPUSTAT - Financial Condition}{section.8}% 25
-\BOOKMARK [3][-]{subsubsection.8.2.1}{Screening Variables}{subsection.8.2}% 26
-\BOOKMARK [3][-]{subsubsection.8.2.2}{Variables}{subsection.8.2}% 27
-\BOOKMARK [2][-]{subsection.8.3}{CRSP - Event Study Abnormal Returns}{section.8}% 28
-\BOOKMARK [1][-]{section.9}{Literature}{}% 29
+\BOOKMARK [1][-]{section.5}{Target}{}% 19
+\BOOKMARK [1][-]{section.6}{Justification for using the underlying Inputs to determine the Financial Condition}{}% 20
+\BOOKMARK [1][-]{section.7}{Abnormal Returns - Event Study}{}% 21
+\BOOKMARK [2][-]{subsection.7.1}{Windows}{section.7}% 22
+\BOOKMARK [2][-]{subsection.7.2}{Problems}{section.7}% 23
+\BOOKMARK [2][-]{subsection.7.3}{Abnormal Returns}{section.7}% 24
+\BOOKMARK [2][-]{subsection.7.4}{Statistical Tests}{section.7}% 25
+\BOOKMARK [1][-]{section.8}{Investor-Target Ratio}{}% 26
+\BOOKMARK [1][-]{section.9}{Data}{}% 27
+\BOOKMARK [2][-]{subsection.9.1}{COMPUSTAT - Financial Condition}{section.9}% 28
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Screening Variables}{subsection.9.1}% 29
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Variables}{subsection.9.1}% 30
+\BOOKMARK [2][-]{subsection.9.2}{CRSP - Event Study Abnormal Returns}{section.9}% 31
+\BOOKMARK [1][-]{section.10}{Literature}{}% 32

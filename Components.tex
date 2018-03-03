@@ -133,7 +133,11 @@
 
     \begin{itemize}
         \item Schedule 13D filings must be made within 10 days of acquiring a beneficial ownership of 5\% or greater of the outstanding common stock of a U.S. public company. The use of the qualifier ‘beneficial’ is important because related, yet different entities, may have to file a schedule 13D if their combined ownership of the target is 5\% or greater and their voting or investment power is combined \citep{Brigida2012}
+
         \item Within the Schedule 13D and 13G filings is information important to this analysis. \citep{Brigida2012}
+
+        \item Outlook: with more information processed one could say... A 13D filing by an acquirer may have a more pronounced impact if the filing specifies that the investor intends to be an activist. \citep{Brigida2012}
+
         \item 13D Filings (Collin-Dufresne, Pierre; Fos, Vyacheslav)
         
     \end{itemize}
@@ -191,6 +195,8 @@
 
         \item We exclude the acquirer’s stated intent within this model, as the set of variables indicating the acquirer type is highly correlated with the set of variables indicating the acquirer’s intent \citep{Brigida2012}
 
+        \item We report that 10-K document file size provides a simple readability proxy that outperforms the Fog Index, does not require document parsing, facilitates replication, and is correlated with alternative readability constructs.\citep{Loughran2014}
+
     \end{itemize}
 
 \subsection{Filters}
@@ -238,6 +244,8 @@
 
         \item We compute two summary measures of firm strength. The first, OHt, is a mea- sure of bankruptcy risk developed by Ohlson (1980).\citep{Fama2006}
 
+        \item Figure 1 shows the valuation methods most widely used by Morgan Stanley Dean Witter’s analysts for valuing European companies. Surprisingly, the discounted cash flow (DCF) is in fifth place, behind multiples such as the PER, the EV/EBITDA and the EV/EG \citep{Fernandez2001}
+
     \end{itemize}
 
 \subsection{F-Score}
@@ -248,8 +256,7 @@
 
             \item Piotroski’s (2000, 2005) f-score is the sum of nine binary signals that form a “…composite measure of firm strength” [Fama and French (2006, page 496)] \citep{Choi2012}
 
-            \item The second composite measure of firm strength, PTt, is from Piotroski (2000).It
-            is the sum of nine binary variables, each equal to 1 if a given condition holds and 0 otherwise.\citep{Fama2006}
+            \item The second composite measure of firm strength, PTt, is from Piotroski (2000).It is the sum of nine binary variables, each equal to 1 if a given condition holds and 0 otherwise.\citep{Fama2006}
 
             \item Financial Performance Signals used to Differentiate high BM Firms \citep{Piotroski2000}
         
@@ -305,6 +312,8 @@
         \item The accounting fundamentals used as explanatory variables in the proxies for expected profitability and investment include lagged values of Bt/Mt, a dummy variable for negative earnings, profitability (Yt/Bt) for firms with positive earnings, accruals relative to book
         equity for firms with positive (+ACt/Bt) and negative (?ACt/Bt) accruals, investment (dAt/At?1), a dummy variable for firms that do not pay dividends (No Dt), and the ratio of dividends to book equity (Dt/Bt).\citep{Fama2006}
 
+        \item The base accounting variables, from Compustat, are At, total assets (Compustat data item 6); Yt, income before extraordinary items (18); ACt, accruals [the change in current assets (4), minus the change in cash and short term investments (1), minus the change in current liabilities (5), plus the change in debt in current liabilities (34)]; Dt, total dividends [dividends per share by ex date (26) times common shares outstanding (25)]; and Bt, book equity  [total assets (6), minus liabilities (181), plus balance sheet deferred taxes and investment tax credit (35) if available, minus preferred stock liquidating value (10) if available,or redemption value (56) if available, or carrying value (130)]. The accounting variables for year t are measured at the fiscal year end that falls in calendar year t. \citep{Fama2006}
+
         \item We include firm size (the log of total market cap, lnMCt) among the fundamental variables because smaller firms tend to be less profitable (Fama and French, 1995).\citep{Fama2006}
 
         \item Expected returns increase in profitability and decrease in accruals. We show that cash-based operating profitability (a measure that excludes accruals) outperforms measures of profitability that include accruals \citep{Ball2016}
@@ -344,102 +353,167 @@
 
     \end{itemize}
 
-\subsection{Target}
+\section{Target}
 
     \begin{itemize}
+
         \item Who are the targets - many report that the typical target firm of an activist investor is smaller, more profitable, has a large institutional ownership level, and has more of a “value” orientation (namely a higher book to market ratio) \citep{CoffeeJr.2014}
 
         \item the evidence consistently supports only the generalization that targets of activism often tend to have a lower Tobin’s Q and a “value” orientation \citep{CoffeeJr.2014}
+
         \item For example, Brav, Jiang, Partnoy and Thomas, supra note 8, find no statistically significant relationship between the target’s abnormal returns and their governance and capital structure \citep{CoffeeJr.2014}
+
         \item These findings are consistent with the idea that the F Score is most effective when applied to stocks for which the market is slow to incorporate relevant financial information. Deep value stocks are typically neglected by analysts and investors and thus likely to exhibit slow impounding of new information \citep{Hyde2014}
+
         \item the ‘slow impounding of new information’ hypothesis by showing that future institutional investor demand is high for stocks with high F scores. \citep{Hyde2014}
+
         \item The finding by Mohr (2012) that the F score effectively discriminates between high and low return stocks amongst growth stocks provides additional justification for broadening the analysis to include all stocks. \citep{Hyde2014}
+
         \item Our key finding is that, consistent with previous evidence from both developed and emerging market studies, stocks with a high F score earn a significant return premium over stocks with a low F score.\citep{Hyde2014}
+
         \item First, does financial strength predict subsequent institutional demand? \citep{Choi2012}
+
         \item Analogue to investors? Specifically, the difference between high and low f-score group returns averages 25.73\% (statistically significant at the 1\% level). \citep{Choi2012}
-        \item Consistent with Piotroski (2000, 2005) and Fama and French (2006), the results reveal a strong positive relation between f-score 10 and future returns—high f-score stocks average annual market-adjusted returns 8.35\% greater (statistically significant at the 1\% level) than low f-score stocks \citep{Choi2012} 
+
+        \item Consistent with Piotroski (2000, 2005) and Fama and French (2006), the results reveal a strong positive relation between f-score 10 and future returns. High f-score stocks average annual market-adjusted returns 8.35\% greater (statistically significant at the 1\% level) than low f-score stocks \citep{Choi2012} 
 
     \end{itemize}
 
 
-\section{Underlying Justification for using the given measures as a proxy for financial strength}
+\section{Justification for using the underlying Inputs to determine the Financial Condition}
 
     \begin{itemize}
-        \item We report that 10-K document file size provides a simple readability proxy that outperforms the Fog Index, does not require document parsing, facilitates replication, and is correlated with alternative readability constructs.\citep{Loughran2014}
-        \item Information Availability to the Market
-        \item 10-K Filings - MANAGERS OF PUBLICLY traded firms are required to produce public documents
-        that provide a comprehensive review of the firm’s business operations and financial condition. An important financial disclosure document created by managers to communicate with investors and analysts is the annual report filed pursuant to the Securities Exchange Act of 1934, Form 10-K.\citep{Loughran2014}
-        \item Second, we recommend using the file size of the 10-K as an easily calculated proxy for document readability \citep{Loughran2014}
-        \item o ensure that investors would have the necessary information to compute f-scores, Piotroski (2000, 2005) examines annual returns beginning the fifth month following fiscal year end. \citep{Choi2012}
-        \item Data availability
-        \item Why would they use the data?
+
+        \item Information/Data Availability to the Market
+        
+        \item To ensure that investors would have the necessary information to compute f-scores, Piotroski (2000, 2005) examines annual returns beginning the fifth month following fiscal year end. \citep{Choi2012}
+        
+        \item Check back with sample selection: We report that 10-K document file size provides a simple readability proxy that outperforms the Fog Index, does not require document parsing, facilitates replication, and is correlated with alternative readability constructs.\citep{Loughran2014}
+
         \item Readability: financial information is definitely available - is it readable? (Loughran, MacDonald)
+        
         \item Because information is incorporated in a given manner, we can use several variables as proxies for financial strength observed by the market in the form of abnormal returns (they know what we know)
+        
         \item At the time a company files its 10-K report with the SEC, most likely all key information has already been disclosed to the public.\citep{You2009}
-        \item Figure 1 shows the valuation methods2 most widely used by Morgan Stanley Dean Witter’s
-        analysts for valuing European companies. Surprisingly, the discounted cash flow (DCF) is in fifth place, behind multiples such as the PER, the EV/EBITDA and the EV/EG \citep{Fernandez2001}
+        
+        \item 10-K Filings - MANAGERS OF PUBLICLY traded firms are required to produce public documents that provide a comprehensive review of the firm’s business operations and financial condition. An important financial disclosure document created by managers to communicate with investors and analysts is the annual report filed pursuant to the Securities Exchange Act of 1934, Form 10-K.\citep{Loughran2014}
+
+        \item Second, we recommend using the file size of the 10-K as an easily calculated proxy for document readability \citep{Loughran2014}
+
+        \item Check with Company Condition: Figure 1 shows the valuation methods most widely used by Morgan Stanley Dean Witter’s analysts for valuing European companies. Surprisingly, the discounted cash flow (DCF) is in fifth place, behind multiples such as the PER, the EV/EBITDA and the EV/EG \citep{Fernandez2001}
+        
     \end{itemize}
 
 \section{Abnormal Returns - Event Study} 
+
+
     \begin{itemize}
-        \item Trading strategy of Schedule 13D filers before the filing day \citep{Collin-Dufresne2015}
-        \item Figure 2 plots the average buy-and-hold return, in excess of the buy-and-hold return on the value-weightedNYSE/Amex/NASDAQ index from CRSP, from 60 days prior to the filing date to 40 days afterward.\citep{Collin-Dufresne2015}
+        
+        \item ECONOMISTS are frequently asked to measure the effects of an economic event on the value of firms \citep{MacKinlay1997}
+
         \item Short-horizon event studies of stock returns: Many studies have examined what happens to targets firm’s stock price when there is a Schedule 13D filing with the SEC \citep{CoffeeJr.2014}
+
+        \item Consistency with prior findings/literature
+
+        \item Trading strategy of Schedule 13D filers before the filing day \citep{Collin-Dufresne2015}
+        
+        \item In the majority of applications, the focus is the effect of an event on the price of a particular class of securities of the firm, most often common equity. \citep{MacKinlay1997}
+
+        \item Useful papers which deal with the practical importance of many of the complications and adjustments are the work by Stephen Brown and Jerold Warner published in 1980 and 1985. The 1980 paper considers implementation issues for data sampled at a monthly interval and the 1985 paper deals with issues for daily data \citep{MacKinlay1997}
+
+        \item Describe the mathematics/procedure behind it! Formulas! 
+
+        \item Power functions to determine the power of the analysis
+
+    \end{itemize}
+
+\subsection{Windows}
+
+    \begin{itemize}
+
+        \item Figure 2 plots the average buy-and-hold return, in excess of the buy-and-hold return on the value-weightedNYSE/Amex/NASDAQ index from CRSP, from 60 days prior to the filing date to 40 days afterward.\citep{Collin-Dufresne2015}
+
         \item For ease of exposition, let us define [-x, +y] to be x days before the 13D filing, to y days after the filing. On this basis - literature \citep{CoffeeJr.2014}
+
         \item event-window: we find that most informed trading before a 13D filing is during the event window (-10, -6).\citep{Brigida2012}
+
+
         \item event window - We also found that the target runup before a 13D filing is greatest during the event window (-10,-6). Therefore, future academic research that estimates the share price response surrounding 13D filings should use a window extending to at least 10 days prior to the filing. \citep{Brigida2012}
-        \item Outlook: with more information processed one could say... A 13D filing by an acquirer may have a more pronounced impact if the filing specifies that the investor intends to be an activist. \citep{Brigida2012}
+
         \item Runup = cumulative abnormal return of the target’s stock over the intervals (-10, -1), (-5, -1), and (-2, -1) relative to t = 0 being the filing of the Schedule 13D or 13G. \citep{Brigida2012}
+        
         \item In fact, 92\% of the effect of a Schedule 13D filing on the target’s stock is realized before 3 days prior to the filing. These results show very little new information is revealed to the market when the Schedule 13D filing is made public \citep{Brigida2012}
+
         \item Therefore, any analysis of the effect of a Schedule 13D filing on the target stock should consider an event window starting no later than ten days before the filing. \citep{Brigida2012}
-        \item We define market-adjusted returns as the firm’s buy and hold return less the CRSP value-
-        weighted index buy and hold return over the same period. \citep{Choi2012}
-        \item computed from the time-series of the differences in the 24 cross-sectional means with Newey-West (1987) standard errors] \citep{Choi2012}
-        \item The buy-and-hold Benchmark approach: The first approach uses a benchmark to measure the abnormal buy-and-hold return for every event firm, and tests the null hypothesis that the average abnormal return is zero.\citep{ang2011}
+
+    \end{itemize}
+
+\subsection{Problems}
+
+    \begin{itemize}
+
         \item It is well known that event studies are prone to cross-sectional correlation among abnormal returns when the event day is the same for sample firms. \citep{Kolari2010}
-        \item We use the buy-and-hold method to measure the abnormal stock returns for two
-        reasons. (1) As shown in Barber and Lyon (1997), buy-and-hold is favored over cumulative abnormal return (CAR) on a conceptual ground. (2) BHAR facilitates the cross-sectional analysis of how abnormal return varies with complexity. However, as pointed out by Mitchell and Stafford (2000), BHAR may exaggerate the short-term abnormal return due to compounding. To address this issue, we conduct a calendar time analysis. Specifically, each month we place firms into five portfolios based on their most recent FDR \citep{You2009}
+
+
+    \end{itemize}
+
+\subsection{Abnormal Returns}
+
+    \begin{itemize}
+
+        \item We use the buy-and-hold method to measure the abnormal stock returns for two reasons. (1) As shown in Barber and Lyon (1997), buy-and-hold is favored over cumulative abnormal return (CAR) on a conceptual ground. (2) BHAR facilitates the cross-sectional analysis of how abnormal return varies with complexity. However, as pointed out by Mitchell and Stafford (2000), BHAR may exaggerate the short-term abnormal return due to compounding. To address this issue, we conduct a calendar time analysis. Specifically, each month we place firms into five portfolios based on their most recent FDR \citep{You2009}
+
         \item We find that the market reacts favorably to activism, consistent with the view that it creates value. The filing of a Schedule 13D revealing an activist fund’s investment in a target firm results in large positive average abnormal returns, in the range
         of 7\% to 8\%, during the (–20,+20) announcement window \citep{Brav2008}
-        \item In the majority of applications, the focus is the effect of an event on the price of a particular class of securities of the firm, most often common equity. \citep{MacKinlay1997}
-        \item Useful papers which deal with the practical importance of many of the complications and adjust- ments are the work by Stephen Brown and Jerold Warner published in 1980 and 1985. The 1980 paper considers imple- mentation issues for data sampled at a monthly interval and the 1985 paper deals with issues for daily data \citep{MacKinlay1997}
-        \item Also one can easily modify the sta- tistical framework so that the analysis of the abnormal returns is autocorrelation and heteroskedasticity consistent by us- ing a generalized method-of-moments approach.\citep{MacKinlay1997}
+
+        \item We define market-adjusted returns as the firm’s buy and hold return less the CRSP value-weighted index buy and hold return over the same period. \citep{Choi2012}
+
+        \item Also one can easily modify the statistical framework so that the analysis of the abnormal returns is autocorrelation and heteroskedasticity consistent by using a generalized method-of-moments approach.\citep{MacKinlay1997}
+
         \item The market model represents a potential improvement over the constant mean model \citep{MacKinlay1997}
+
         \item Restrictions of the CAPM: The use of the Capital Asset Pricing Model is common in event studies of the 1970s \citep{MacKinlay1997} 
-        \item ECONOMISTS are frequently asked to measure the effects of an economic event on the value of firms \citep{MacKinlay1997}
-        \item mathematics behind it !! 
-        \item Computation etc.
-        \item Power functions 
+
+        \item To reduce any effect of outliers on the estimated coefficients, we also estimate each equation using robust regression employing the Huber weight function. \citep{Brigida2012}
+
+    \end{itemize}
+\subsection{Statistical Tests}
+
+    \begin{itemize}
+
+        \item computed from the time-series of the differences in the 24 cross-sectional means with Newey-West (1987) standard errors] \citep{Choi2012}
+
+        \item The buy-and-hold Benchmark approach: The first approach uses a benchmark to measure the abnormal buy-and-hold return for every event firm, and tests the null hypothesis that the average abnormal return is zero.\citep{ang2011}
+
+        \item Testing the error terms from ordinary least-squares estimations of the below regression equations,using the Breusch-Pagan test, found no evidence for significant heteroscedasticity \citep{Brigida2012}
+
+
     \end{itemize}
 
 \section{Investor-Target Ratio} 
 
     \begin{itemize}
+
         \item These findings are consistent with the idea that the F Score is most effective when applied to stocks for which the market is slow to incorporate relevant financial information. Deep value stocks are typically neglected by analysts and investors and thus likely to exhibit slow impounding of new information \citep{Hyde2014}
-        \item What are the characteristics of the targets?
-        \item useful signals regarding the likelihood of acquisition
-        (Walkling, 1985, and Akhigbe, Martin, and Whyte, 2007) \citep{Brigida2012}
-        \item Since a 13D filing can influence the likelihood that a firm will become a takeover target, it is not surprising that the filing elicits a market reaction.\citep{Brigida2012}
-        \item What kind of companies are the targets (Coffee Jr., John C.
-        Palia, Darius)
-        \item relation between ratio and the market 
+        
+        \item What is the relation between the investor-target ratio and the market?
+        
+        \item Reference to the financial condition of the target: What are the characteristics?
+        
+        \item What kind of companies are the targets (Coffee Jr., John C. Palia, Darius)
+        
+
+        % \item useful signals regarding the likelihood of acquisition (Walkling, 1985, and Akhigbe, Martin, and Whyte, 2007) \citep{Brigida2012}
+
+        % \item Since a 13D filing can influence the likelihood that a firm will become a takeover target, it is not surprising that the filing elicits a market reaction.\citep{Brigida2012}
+
     \end{itemize}
 
 \section{Data}
 
-    \subsection{Comments}
-
-    \begin{itemize}
-        \item Testing the error terms from ordinary least-squares estimations of the below regression equations,using the Breusch-Pagan test, found no evidence for significant heteroscedasticity \citep{Brigida2012}
-        \item To reduce any effect of outliers on the estimated coefficients, we also estimate each equation using robust regression employing the Huber weight function. \citep{Brigida2012}
-    \end{itemize}
-
     \subsection{COMPUSTAT - Financial Condition}
-    The base accounting variables, from Compustat, are At, total assets (Compustat data
-    item 6); Yt, income before extraordinary items (18); ACt, accruals [the change in current assets (4), minus the change in cash and short term investments (1), minus the change in
-    current liabilities (5), plus the change in debt in current liabilities (34)]; Dt, total dividends [dividends per share by ex date (26) times common shares outstanding (25)]; and Bt, book equity  [total assets (6), minus liabilities (181), plus balance sheet deferred taxes and
-    investment tax credit (35) if available, minus preferred stock liquidating value (10) if available,or redemption value (56) if available, or carrying value (130)]. The accounting variables for year t are measured at the fiscal yearend that falls in calendar year t. \citep{Fama2006}
-        \subsubsection{Screening Variables}
+    
+     \subsubsection{Screening Variables}
 
         \begin{enumerate}
             \item What consolidation level? - Consolidated
@@ -450,9 +524,9 @@
             \item Company Status? - Active \& Inactive  
         \end{enumerate}
 
-        \subsubsection{Variables}
+    \subsubsection{Variables}
 
-    \begin{enumerate}
+        \begin{enumerate}
         \item Identifying Information
 
             \begin{itemize}
@@ -494,15 +568,21 @@
 
 \section{Literature}
 
-    \begin{itemize}
-        \item For ease of exposition, let us define [-x, +y] to be x days before the 13D filing, to y days after the filing. On this basis \citep{CoffeeJr.2014}
-        \item Kothari, S. P., and J. B. Warner. 2007. Econometrics of Event Studies. In B. E. Eckbo (ed.), Handbooks of Corporate Finance: Empirical Corporate Finance, Chapter 1. Amsterdam: Elsevier/North-Holland.
-        \item Journal of Financial and Quantitative Analysis (JFQA)
-        \item Fama, E. F., and K. R. French. 2006. Profitability, Investment and Average Returns. Journal of Financial Economics 82: 491-518. (page 496)
-        \item Mohr, J-H.M., 2012. Utility of Piotroski's F-score for predicting growth stock returns. Working paper, MFIE Capital.
-        \item The econometric of Financial Markets - Campbell, Lo and MacKinaly 1997
-        \item signs for takeover? 
-    \end{itemize}
+    % \begin{itemize}
+
+    %     \item Kothari, S. P., and J. B. Warner. 2007. Econometrics of Event Studies. In B. E. Eckbo (ed.), Handbooks of Corporate Finance: Empirical Corporate Finance, Chapter 1. Amsterdam: Elsevier/North-Holland.
+
+    %     \item Journal of Financial and Quantitative Analysis (JFQA)
+
+    %     \item Fama, E. F., and K. R. French. 2006. Profitability, Investment and Average Returns. Journal of Financial Economics 82: 491-518. (page 496)
+
+    %     \item Mohr, J-H.M., 2012. Utility of Piotroski's F-score for predicting growth stock returns. Working paper, MFIE Capital.
+
+    %     \item The econometric of Financial Markets - Campbell, Lo and MacKinaly 1997
+
+    %     \item signs for takeover? 
+
+    % \end{itemize}
 
 \printbibliography
 
