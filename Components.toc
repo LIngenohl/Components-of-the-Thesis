@@ -22,7 +22,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Summary Statistics for the sample - Investor \& Target}{6}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Financial Condition - Investor}{6}{section.4}
+\contentsline {section}{\numberline {4}Financial Condition -- Investor}{6}{section.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}F-Score}{7}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
@@ -38,7 +38,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Evaluation of the financial strength}{10}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Target}{10}{section.5}
+\contentsline {section}{\numberline {5}Financial Condition -- Target}{10}{section.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Justification for using the underlying Inputs to determine the Financial Condition}{11}{section.6}
 \defcounter {refsection}{0}\relax 
@@ -62,6 +62,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {9.1.2}Variables}{15}{subsubsection.9.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}CRSP - Event Study Abnormal Returns}{16}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.2}F-Score Variables}{16}{subsection.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Literature}{16}{section.10}
+\contentsline {subsection}{\numberline {9.3}CRSP - Event Study Abnormal Returns}{17}{subsection.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Literature}{17}{section.10}

@@ -135,6 +135,7 @@
     \begin{itemize}
         \item HNA 
     \end{itemize}
+
 \subsection{13D Filings}
 
     \begin{itemize}
@@ -142,7 +143,7 @@
 
         \item Within the Schedule 13D and 13G filings is information important to this analysis. \citep{Brigida2012}
 
-        \item Outlook: with more information processed one could say... A 13D filing by an acquirer may have a more pronounced impact if the filing specifies that the investor intends to be an activist. \citep{Brigida2012}
+        \item \emph{Outlook}: with more information processed one could say... A 13D filing by an acquirer may have a more pronounced impact if the filing specifies that the investor intends to be an activist. \citep{Brigida2012}
 
         \item 13D Filings (Collin-Dufresne, Pierre; Fos, Vyacheslav)
         
@@ -232,9 +233,13 @@
 
         \item Outlook of what could be done or what will follow: depicts the average daily trading volume (number of shares traded scaled by the number of shares outstanding) over the 21 trading days centering around the 10-K filing date \citep{You2009}
 
+        \item number of growth/value stocks? 
+
+        \item distribution of the f-scores across targets and investors
+
     \end{itemize}
 
-\section{Financial Condition - Investor}
+\section{Financial Condition -- Investor}
 
     \begin{itemize}
         \item What do I use? 
@@ -359,7 +364,7 @@
 
     \end{itemize}
 
-\section{Target}
+\section{Financial Condition -- Target}
 
     \begin{itemize}
 
@@ -483,6 +488,7 @@
         \item To reduce any effect of outliers on the estimated coefficients, we also estimate each equation using robust regression employing the Huber weight function. \citep{Brigida2012}
 
     \end{itemize}
+
 \subsection{Statistical Tests}
 
     \begin{itemize}
@@ -507,6 +513,8 @@
         \item Reference to the financial condition of the target: What are the characteristics?
         
         \item What kind of companies are the targets (Coffee Jr., John C. Palia, Darius)
+
+        \item Vertical integration, scale effect - check with industry code - goal takeover?! 
         
 
         % \item useful signals regarding the likelihood of acquisition (Walkling, 1985, and Akhigbe, Martin, and Whyte, 2007) \citep{Brigida2012}
@@ -566,6 +574,81 @@
                 \item Long term debt total (DLTT)
             \end{itemize}
         
+        \subsection{F-Score Variables}
+
+            \begin{enumerate}
+                \item Positive net income before extraordinary items -- IB
+                \item Positive cash flow from operations
+
+                    \begin{enumerate}
+
+                      \item If a company files a statement of working capital (Format Code 1)
+
+                      \begin{enumerate}
+                        \item \emph{cash flow from operations} is \emph{funds fromm operations} less \emph{other changes in working capital WCAPC}.
+
+                        \item \emph{Funds from operations} is the sum of \emph{earnings before extraordinary items IB} \emph{income statement deferred taxes TXDI} and \emph{equity's share of depreciation expenses}.
+                        \item \emph{equity's share of depreciation expenses} is \emph{depreciations expense DP} times \emph{the ratio of market capitalization} to the sum of \emph{market capitalization} and the difference between \emph{total assets AT} and \emph{book value of equity}.
+                        \item \emph{book value of equity} is defined as \emph{total assets AT} less \emph{liabilities LT} plus \emph{deferred taxes and investment tax credits TXDITC} less \emph{preferred stocks liquidity value PSTKL} or \emph{preferred stock redemption value PSTKRV} or \emph{preferred stocks carrying value PSTK}
+                      \end{enumerate}
+                      
+                      \item If a company files a statement of cash flows (Format code 7) 
+
+                      \begin{enumerate}
+                          \item \emph{cash flow from operations} is \emph{net cash flow from operating activities OANCF}
+                      \end{enumerate}
+
+                      \item For all other Compustat format codes
+
+                      \begin{enumerate}
+                          \item \emph{cash flow from operations} is the sum of \emph{funds from operations} and \emph{changes in working capital WCAPC}
+                      \end{enumerate}
+
+                    \end{enumerate}  
+
+                \item \emph{Cash flow from operations} greater than \emph{net income} -- (2) larger than (1)
+
+                \item Growth in net income (scaled by total assets) from the prior fiscal year end 
+
+                    \begin{enumerate}
+                        \item \emph{net income before extraordinary items IB} divided by \emph{total assets AT} 
+                    \end{enumerate}
+
+                \item Decrease in leverage from prior fiscal year end 
+
+                    \begin{enumerate}
+                        \item \emph{long term debt DLTT + DD1} divided by \emph{total assets AT} 
+                    \end{enumerate}
+                    
+                \item Increase in liquidity from prior fiscal year end 
+
+                    \begin{enumerate}
+                        \item Ratio of \emph{current assets ACT} to \emph{current liabilities}
+                    \end{enumerate}
+                
+                \item No new common or preferred stock issued over the previous year 
+
+                    \begin{enumerate}
+                        \item If sales from \emph{common and preferred stocks is zero}
+                    \end{enumerate}
+
+                \item Increase in gross margin from prior fiscal year end 
+
+                    \begin{enumerate}
+                        \item One minus \emph{ratio of costs of goods sold COGS} to \emph{sales SALE}
+                    \end{enumerate}
+
+                \item Increase in asset turnover prior to fiscal year end 
+
+                    \begin{enumerate}
+                        \item \emph{ratio of sales SALE} to \emph{total assets at the beginning of the year AT -- AT from prior fiscal year}
+                    \end{enumerate}
+
+                    
+            \end{enumerate}
+                    
+            
+
     \end{enumerate}
 
 

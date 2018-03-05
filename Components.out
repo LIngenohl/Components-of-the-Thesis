@@ -8,7 +8,7 @@
 \BOOKMARK [1][-]{section.2}{Sample Selection}{}% 8
 \BOOKMARK [2][-]{subsection.2.1}{Filters}{section.2}% 9
 \BOOKMARK [1][-]{section.3}{Summary Statistics for the sample - Investor \046 Target}{}% 10
-\BOOKMARK [1][-]{section.4}{Financial Condition - Investor}{}% 11
+\BOOKMARK [1][-]{section.4}{Financial Condition \205 Investor}{}% 11
 \BOOKMARK [2][-]{subsection.4.1}{F-Score}{section.4}% 12
 \BOOKMARK [3][-]{subsubsection.4.1.1}{What is it?}{subsection.4.1}% 13
 \BOOKMARK [3][-]{subsubsection.4.1.2}{Why is it used?}{subsection.4.1}% 14
@@ -16,7 +16,7 @@
 \BOOKMARK [2][-]{subsection.4.2}{Expected Return}{section.4}% 16
 \BOOKMARK [2][-]{subsection.4.3}{Measurements \(variables\) for the financial condition}{section.4}% 17
 \BOOKMARK [2][-]{subsection.4.4}{Evaluation of the financial strength}{section.4}% 18
-\BOOKMARK [1][-]{section.5}{Target}{}% 19
+\BOOKMARK [1][-]{section.5}{Financial Condition \205 Target}{}% 19
 \BOOKMARK [1][-]{section.6}{Justification for using the underlying Inputs to determine the Financial Condition}{}% 20
 \BOOKMARK [1][-]{section.7}{Abnormal Returns - Event Study}{}% 21
 \BOOKMARK [2][-]{subsection.7.1}{Windows}{section.7}% 22
@@ -28,5 +28,6 @@
 \BOOKMARK [2][-]{subsection.9.1}{COMPUSTAT - Financial Condition}{section.9}% 28
 \BOOKMARK [3][-]{subsubsection.9.1.1}{Screening Variables}{subsection.9.1}% 29
 \BOOKMARK [3][-]{subsubsection.9.1.2}{Variables}{subsection.9.1}% 30
-\BOOKMARK [2][-]{subsection.9.2}{CRSP - Event Study Abnormal Returns}{section.9}% 31
-\BOOKMARK [1][-]{section.10}{Literature}{}% 32
+\BOOKMARK [2][-]{subsection.9.2}{F-Score Variables}{section.9}% 31
+\BOOKMARK [2][-]{subsection.9.3}{CRSP - Event Study Abnormal Returns}{section.9}% 32
+\BOOKMARK [1][-]{section.10}{Literature}{}% 33
