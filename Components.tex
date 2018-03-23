@@ -20,7 +20,7 @@
 	\usepackage{algpseudocode}
 	\usepackage{bigstrut}
 	\usepackage{enumitem}
-
+    \usepackage{mathtools}
 	% package hyperref
     \usepackage[hidelinks]{hyperref}
   
@@ -240,7 +240,7 @@
 
     \begin{itemize}
 
-        \item Minority acquisitions are an important organizational choice, accounting for around 20\% of all acquisitions between 1990 and 2015.\citep{huang}
+        \item Minority acquisitions are an important organizational choice, accounting for around 20\% of all acquisitions between 1990 and 2015 (huang)
 
         \item Most firms, private and public, have assets on their books that can be considered to be non-operating assets. The second is investments in equities and bonds of other firms, sometimes for investment reasons and sometimes for strategic ones \citep{Damodaran2005}
 
@@ -322,13 +322,13 @@
 
     \item A majority acquisition will lead to a larger, and potentially less efficient, internal capital market at the acquirer. The only way for firms to avoid such costs is to instead pursue a minority acquisition \citep{Ouimet2013}
 
-    \item Our results suggest that bidders use minority acquisitions when they confront informational or integration barriers. \citep{huang}
+    \item Our results suggest that bidders use minority acquisitions when they confront informational or integration barriers.(huang)
 
-    \item Minority acquisitions can also help to serve as a stepping-stone towards full control. \citep{huang}
+    \item Minority acquisitions can also help to serve as a stepping-stone towards full control. (huang)
 
-    \item We show that minority stakes are also useful in mitigating some of the risks likely to affect takeover deals that involve greater information asymmetry \citep{huang}
+    \item We show that minority stakes are also useful in mitigating some of the risks likely to affect takeover deals that involve greater information asymmetry (huang)
 
-    \item The underlying logic is that such deals could both help the bidder to enforce incomplete contracts and to gather more information before launching a bid for full control. \citep{huang}
+    \item The underlying logic is that such deals could both help the bidder to enforce incomplete contracts and to gather more information before launching a bid for full control. (huang)
 
     \item Activism: Specifically, we analyze and compare three mechanisms: (1) proxy fights (voting only); (2) takeover bids (buying shares only); and (3) a combination of proxy fights and takeover bids in which shareholders vote on acquisition offers \citep{Arlen2001}
 
@@ -467,6 +467,7 @@
 
             \item Panel B of Table 3 provides characteristics of the acquiring firm. Free cash flow theory predicts that firms with empire-building managers and poor investment opportunities prefer to invest the firm’s excess cash flow rather than pay it to shareholders. Such firms accumulate excess cash, so that firms with excess cash are more likely to make poor acquisitions (see Harford, 1999). However, small firms have a higher mean and median ratio of cash to total assets, which deepens the puzzle of the size effect. Maloney et al. (1993) show that firms with higher leverage make better acquisitions and small firms have higher leverage than large firms. We also estimate Tobin’s q using the market value of the firm’s assets divided by the book value. As mentioned earlier, the existing evidence is that firms with higher q values make better acquisitions. Small firms have lower q values than large firms, so that differences in q cannot explain the size effect. Finally, we report the equity book- to-market (BM) ratio, computed as in Fama and French (1993). Dong et al. (2002) argue that firms with low BM ratios are more likely to be overvalued. Small firms have higher BM ratios. There is no significant difference between the operating cash flows of large and small firms \citep{Moeller2004}
 
+            \item We present both raw and industry-adjusted metrics; the latter is defined as the difference between the firm’s measure and the industry’s median measure (Shah (1994)) \citep{Klein2009}
         \end{itemize}
 
 \subsection{F-Score}
@@ -514,6 +515,8 @@
 
             \item This finding confirms earlier research by Piotroski (2004) who states that F-Score does not lose its predictive ability when applied to growth (instead of value) stocks. \citep{Mohr2012}
 
+            \item After controlling for financial distress and historical changes in profi- tability, FJSCORE still displays power to discriminate between stronger and weaker firms within each partition \citep{Piotroski2000}
+
         \end{itemize}
 
     \subsubsection{Problems/Comments}
@@ -539,16 +542,45 @@
             \item In other words, the evidence implies that only the cash-based component of operating profits matters in the cross section of expected returns, and the predictive power of accruals is attributable to their negative correlation with the cash-based component \citep{Ball2016}
 
         \end{itemize}
-    
-\subsection{Z-Score}
+
+\subsection{Financial Distress Measures}
 
 \begin{itemize}
-    \item One of the most prominent of these fundamental indicators is ‘Z-Score’ (Altman, 1964), which shows statistically significant results in predicting bankruptcy of a company \citep{Mohr2012}
+    \item Bankruptcy is a legal status of an insolvent person or an organization, that is, the one who cannot repay the debts that owes to creditors. In most jurisdictions, bankruptcy is imposed by a court order, often initiated by the debtor. When the amount of organization debts is higher than its value of existence assets \citep{Karamzadeh2013}
 
+    \item A comparison between Altman and Ohlson model shows in all three situations Altman works better and it could be suggested to investors in order to predict bankruptcy of companies \citep{Karamzadeh2013} 
+
+    \item Accounting based bankruptcy prediction models 
 \end{itemize}
 
+    \subsubsection{Z-Score}
 
-\subsection{O-Score -- Ohlson}
+    \begin{itemize}
+        \item One of the most prominent of these fundamental indicators is ‘Z-Score’ (Altman, 1964), which shows statistically significant results in predicting bankruptcy of a company \citep{Mohr2012}
+
+        \item Z-Score uses the Altman (1968) model to determine the likelihood of bankruptcy amongst companies. \citep{Klein2009}
+
+        \item Finally, when comparing hedge fund targets to other entrepreneurial activist targets, hedge funds activists are more likely to invest in firms with lower debt-to-asset ratios and Altman Z-scores.\citep{Klein2009}
+
+        \item dimensions of financial distress (as measured by Altman's z-statistic \citep{Piotroski2000}
+
+        \item presents results where the entire portfolio of high BMfirms is split based on two accepted measures of firm health and perfor- mance: financial distress (Altman's z-score) and historical change in profitability (as measured by the change in return on assets) \citep{Piotroski2000}
+
+        \item Altman’s Z-score and Ohlson’s O-score have become popular and widely accepted measures of financial distress. They are used, for example, by Dichev (1998), Griffin and Lemmon (2002), and Ferguson and Shockley (2003) to explore the risks and average returns for distressed firms. \citep{Campbell2008}
+
+        \item that distressed stocks underperform the market \citep{Campbell2008}
+
+        \item In the Altman model (Z-score) for bankruptcy prediction analysis of ratios method is used. The model consists of five financial ratios that are coefficients by Discriminate Analysis Method and has been implemented as a function that financial ratios are as independent variables of it. \citep{Karamzadeh2013}
+
+        \item The Z-score model is still applied as a general practical tool for assessing the financial well-being of firms
+
+        \item Financial ratios of the model: (R1) Working capital to total assets (R2) Retained earning to total assets (R3) Earnings before interest and tayes to total assets (R4) Market value of equity to book value total debt (R5) Sales to total assets -- Z=1.2(R1)+1.4(R2)+3.3(R3)+0.6(R4)+0.999(R5); Cut-off point is for Z=2.675 where a higher Z-score implies non-bankruptcy and a lower score bankruptcy \citep{Kleinert2014}
+
+        \item Elliott \& Elliott (2006, p.703) the z-score has the advantage that it “can be employed to rise above some of the limitations of traditional ratio analysis as it assess corporate stability and more significantly predicts potential case of corporate failures” \citep{Kleinert2014}
+    \end{itemize}
+
+
+    \subsubsection{O-Score -- Ohlson}
 
     \begin{itemize}
         \item First, it was possible to identify four basic factors as being statistically significant in affecting the probability of failure (within one year). These are: (i) the size of the company; (ii) a measure(s) of the financial structure; (iii) a measure(s) of performance; (iv) a measure(s) of current liquidity (the evidence regarding this factor is not as clear as compared to cases (i)- (iii)). \citep{Ohlson1980}
@@ -556,7 +588,9 @@
 
         \item Altman’s Z-score and Ohlson’s O-score have become popular and widely accepted measures of financial distress. They are used, for example, by Dichev (1998), Griffin and Lemmon (2002), and Ferguson and Shockley (2003) to explore the risks and average returns for distressed firms. \citep{Campbell2008}
 
-        \item OHt produces strong negative average slopes when used alone to forecast profitability; higher probability of default is (not surprisingly) associated with lower future profitability. But in the multiple regressions, OHt loses most of its explanatory power, at least for forecasts more than a year ahead. 
+        \item OHt produces strong negative average slopes when used alone to forecast profitability; higher probability of default is (not surprisingly) associated with lower future profitability. But in the multiple regressions, OHt loses most of its explanatory power, at least for forecasts more than a year ahead. \citep{Fama2006}
+
+        \item The nine independent variables: (1) Size log(total assets /GNP price level) (2) TLTA Total liablitites/total assets (3) WCTA working capital/total assets (4) CLCA current liabilites/current assets (5) OENEG one if total liabilites exceed total assets, zero otherwise (6) NITA net income divided by total assets (7) FUTL funds provided by operations divided by total liabilities (8) INTWO one if net income was zero for the last two years, zero otherwise (9) CHIN ??  -- 
 
     \end{itemize}
 \subsection{Book to market ratio / Tobins Q}
@@ -572,14 +606,50 @@
 
         \item For example, Tobin’s Q, which is used as a proxy for investment opportunity, has a mean of 1.7 and a standard deviation of 0.9.\citep{DUCHIN2010}
 
-        \item  \item expected stock returns are related to three variables: the book-to-market equity ratio (Bt/Mt), expected profitability, and expected investment.\citep{Fama2006}
+        \item Expected stock returns are related to three variables: the book-to-market equity ratio (Bt/Mt), expected profitability, and expected investment.\citep{Fama2006}
 
+        \item Tobins Q as a measure for investment opportunity \citep{DUCHIN2010}
+
+        \item Tobins Q = market value of assets (book value of assets (at)+market value of common equity (csho*prcc))-common equity (ceq) -deferred taxes (txdb)/(0.9*book value of assets(at)+0.1*market value of assets) \citep{DUCHIN2010}
+
+        \item Te evidence consistently supports only the generalization that targets of activism often tend to have a lower Tobin’s Q and a “value” orientation \citep{CoffeeJr.2014}
+
+        \item Tobins Q = (Market value of equity + book value of debt and preferred stocks - deferred taxes) / book assets \citep{MacKay2005}
+
+        \item Tobins Q is past performance measure based on chung and pruitt's approximation: Market capitalization, liquidating value of preferred stock, short term liabilities, short term assets, book value of long term debt, total assets (all on COMPUSTAT) \citep{Brigida2012}
+
+        \begin{displaymath}
+            Approximate Q = \frac{MVE+PS+Debt}{TA}
+        \end{displaymath}
+
+        \item Constrained firms have higher Tobin's Q compared to unconstrained firms, which may be due to their unexploited investment opportunities (Whited \& Wu, 2006). \citep{Khatami2014}
+
+        \item Acquisition premiums are inversely related to the target's Tobin's Q and positively related to the acquirer's Q, which suggests that targets that are undervalued aremore likely to be acquired at higher premiums; while acquirers that are overvaluedtendtopay higherpremiums. \citep{Khatami2014}
+
+        \begin{displaymath}
+            Tobin's Q = \frac{AT-CEQ-TXDB+PRCC_C*CSHO}{AT}
+        \end{displaymath}
+
+        \item In particular, this story predicts that both merger and non-merger investment should be increasing in estimates of growth opportunities, such as Tobin’s q \citep{Andrade2004}
+
+        \item Both merger and non-merger investment are positively related to the firm’s Tobin’s q and sales growth. \citep{Andrade2004}
+
+        \begin{displaymath}
+            Tobins Q = \frac{Book Assets + Market Equity - Book Equity}{Book Assets}
+        \end{displaymath}
+
+        \item the existing evidence is that firms with higher q values make better acquisitions. \citep{Moeller2004}
+
+        \begin{displaymath}
+            Tobin's Q = \frac{Firm market Value (total book assets - book value of equity + market capitalization)}{Book Value of Assets}
+        \end{displaymath}
     \end{itemize}
 
 \subsection{Company Size}
 
     \begin{itemize}
 
+        \item In comparison to what? the target? Sample Portfolio? 
         \item IMPORTANT: \citet{Moeller2004} talks about the effect on the acquirers stock not on the targets stock! 
         \item We show in Table 4 how abnormal returns differ between large and small firm \citep{Moeller2004} -- we only report equally-weighted (and not dollar or value- weighted) abnormal returns to save space since we already take into account size differences by splitting the sample. 
 
@@ -595,12 +665,25 @@
 
         \item We include firm size (the log of total market cap, lnMCt) among the fundamental variables because smaller firms tend to be less profitable (Fama and French, 1995).\citep{Fama2006}
 
+        \item Firm Size= natural logarithm of book assets (at) \citep{DUCHIN2010}
+
+        \item Overall, our models show that firm size becomes the driving force for merger dynamics in industries with economies of scale. \citep{Gorton2009}
+
+        \item Since firm size can affect the CAR (Moeller, Schlingemann, and Stulz (2004)), we include the logarithm of the acquirer’s equity market value (Log valuej,t). \citep{Gorton2009}
+
+        \item Likelihood of making an acquisition depends on firm size distribution in industry (this paper, Section VI) -- yes \citep{Gorton2009}
+
+        \item \citep{LyonJ.D.BarberB.M.&Tsai1999}
+        \begin{displaymath}
+            Firms Size = Market Value of Equity = Price per Share * Shares Outstanding
+        \end{displaymath}
 
     \end{itemize}
 \subsection{Credit Rating}
 
     \begin{itemize}
         \item credit ratings, which can be interpreted as subjective default probabilities provided by credit rating agencies \citep{Campbell2008}
+        \item and Avramov et al. (2006), who use credit ratings to measure firms’ financial status. \citep{Campbell2008}
     \end{itemize}
 \subsection{Diversification}
 
@@ -612,6 +695,14 @@
 
     \begin{itemize}
         \item Maloney et al. (1993) show that firms with higher leverage make better acquisitions and small firms have higher leverage than large firms \citep{Moeller2004}  
+        
+        \item Book leverage=(debt in current liabilites (dlc) + long term debt (dltt))/boook assets (At) \citep{DUCHIN2010}
+
+        \item Furthermore, Barclay, Morellec, and Smith (2003) show how book leverage is theoretically preferable in regressions of financial leverage, arguing that using market values in the denominator might spuriously correlate with explanatory variables such as Tobin’s q. However, Welch (2004) argues against book leverage in favor of market leverage, and Fama and French (2002) find strikingly different results for book leverage and market leverage. In light of this recent controversy, we rerun our regressions using total debt divided by the market value of equity plus the book value of debt and preferred stock minus deferred taxes (market leverage). \citep{MacKay2005}
+
+        \begin{displaymath}
+            Leverage = \frac{Total Debt (DLTT+DLC)}{Total Debt plus Value of of Stockholder's Equity (DLTT+DLC+SEQ)}
+        \end{displaymath}
     \end{itemize}
 
 \subsection{KZ-Index}
@@ -666,6 +757,8 @@
 
         \item 13We winsorize extreme observations by setting the values in the bottom and top1\%to the values of the 1st percentiles to present more meaningful mean statistics. For each activist sample, and 99th there are two observations below the 1st percentile, percentile and two observations above the 99th respectively. As a sensitivity check to this process, we redo the analyses after dropping these extreme observations. The empirical results with the smaller samples are qualitatively the same, and therefore we do not include them. We employ the same winsorzing process for all variables
         throughout the analyses and include these results only.
+
+        \item The coefficient signs for risk and Tobin’s q also change across the two estimation methods. These differences show that the simultaneity of financial leverage and its determinants is a real con- cern requiring proper econometric treatment. Since the GMM estimates address this issue directly, inasmuch as the chosen instrument set is both valid and relevant, we emphasize the GMM results over the OLS esti- mates. \citep{MacKay2005}
 
         \item Relation between abnormal returns and the aim of the filing \citep{Brav2008}
     \end{itemize}
@@ -734,8 +827,8 @@
        \item Industry average: An alternative approach that allows us to differentiate across firms in different industries uses the industry averages reported in Appendix 1. Based upon the presumption that there is no excess cash in the composite cash holdings of the sector, the industry averages become proxies for operating cash. Any firm that holds a cash balance greater than the industry average will therefore be holding excess cash. \citep{Damodaran2005}
 
        \item Also one can easily modify the statistical framework so that the analysis of the abnormal returns is autocorrelation and heteroskedasticity consistent by using a generalized method-of-moments approach.\citep{MacKinlay1997}
-
-
+       
+       \item Finally, when comparing hedge fund targets to other entrepreneurial activist targets, hedge funds activists are more likely to invest in firms with lower debt-to-asset ratios and Altman Z-scores \citep{Klein2009}  
     \end{itemize}
 
 
